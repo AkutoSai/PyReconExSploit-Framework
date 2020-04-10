@@ -54,14 +54,12 @@ to display a menu with all the currently available tools.
   - Post Exploitation
   - Bruteforcing
   - Phishing
-  - Cryptography/Stenography
+  - Stenography/Cryptography
  
 ### Information Gathering:
 
   - Nmap
   - IP Info
-  - Tcpdump (In The Works)
-  - Datasploit (In The Works)
   - Censys Lookup
   - DNS Lookup
   - Raccoon
@@ -80,12 +78,12 @@ to display a menu with all the currently available tools.
   
 ### Bruteforcing:
 
-  - FTP Bruteforcer
-  - WPSeku WordPress Login Bruteforce
+  - FTP
+  - WPSeku
   
 ### Phishing:
 
-  - BlackEye Python
+  - BlackEye
   
 ### Crypto/Stegano:
 
