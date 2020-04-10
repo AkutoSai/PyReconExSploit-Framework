@@ -41,7 +41,7 @@ set newkey
 Before running this there was no key named "newkey". After running this you will have a key named "newkey" in your config
 until you use the `reset` command which resets the saved configuration.
 
-#### Running A Tool
+#### Running A Tool:
 
 In order to run a tool all you have to do is enter the name of the tool into pyreconexsploit. You can use the `tools` command
 to display a menu with all the currently available tools.
@@ -94,7 +94,5 @@ to display a menu with all the currently available tools.
 # Credits
 
 [@linux_choice](https://github.com/thelinuxchoice) for BlackEye sites and base.
-
 [@M4ll0k](https://github.com/m4ll0k) for WPSeku.
-
 [@exploitdb](https://github.com/exploitdb) for Searchsploit.
