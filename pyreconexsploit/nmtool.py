@@ -4,7 +4,7 @@ def run():
     now = datetime.datetime.now()
     hosts = input("Host/Host Range: ")
     print("""
-SneakyBoy NMap Module
+         NMap Module
 
 Choose A Type of Scan From Below (Default -sV):
 
