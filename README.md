@@ -5,7 +5,7 @@ PyReconExSploit is a Reconnaissance and Exploitation framework written in Python
 
 In order to use `search` command you must install the searchsploit binary! from {https://www.exploit-db.com/searchsploit/#install}
 
-## Building
+## Building:
 
 ```
 sudo apt-get update
@@ -38,7 +38,6 @@ set newkey
 >> Enter Value For newkey: hello
 >> Config Key Saved!
 ```
-
 Before running this there was no key named "newkey". After running this you will have a key named "newkey" in your config
 until you use the `reset` command which resets the saved configuration.
 
