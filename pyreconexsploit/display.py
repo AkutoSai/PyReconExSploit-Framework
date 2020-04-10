@@ -6,24 +6,22 @@ def welcome():
                 https://github.com/AkutoSai
         """
     gw = socket.gethostname()
-    print("        [i] Default Gateway: %s [i]" % gw)
+    print("     [i] Default Gateway: %s [i]" % gw)
     print(banner)
     print("")
 
 def tools():
     from terminaltables import SingleTable
     from pyfiglet import Figlet
-    f = Figlet(font='slant')
-    print(f.renderText("   Tools"))
     print("Enter the name of the tool which you want to use to use.\n")
     infotable = [
       ['\nTool', '\nDescription'],
-      ['nmap', 'nmap port scanner tool'],
-      ['iplookup', 'ip info tool'],
+      ['cfbypass', 'cloudflare bypasser'],
+      ['raccoon', 'use raccoon scanner tool | command: raccoon --help',
       ['dnslookup', 'dns lookup tool'],
       ['censyslookup', 'censys api lookup | req api creds'],
-      ['raccoon', 'use raccoon scanner tool | command: raccoon --help'],
-      ['cfbypass', 'cloudflare bypasser']
+      ['iplookup', 'ip info tool'],
+      ['nmap', 'nmap port scanner tool']  
     ]
     table = SingleTable(infotable, "Information Gathering")
     print("")
@@ -31,10 +29,10 @@ def tools():
     print("")
     exploittable = [
       ['\nTool', '\nDescription'],
-      ['searchsploit', 'search available exploits (use search command)'],
-      ['reverseshell', 'reverse shell tool for creating payloads'],
+      ['wpseku', 'wordpress vulnerability scanner'],
       ['ftpvulnscan', 'check for ftp buffer overflow'],
-      ['wpseku', 'wordpress vulnerability scanner']
+      ['reverseshell', 'reverse shell tool for creating payloads'],
+      ['searchsploit', 'search available exploits (use search command)']
     ]
     exptable = SingleTable(exploittable, "Exploitation")
     print(exptable.table)
@@ -54,6 +52,7 @@ def tools():
     cryptotable = [
       ['\nTool', '\nDescription'],
       ['pdfmeta', 'pdf meta data']
+      ['StegHide', 'Steganography']
     ]
     cryptable = SingleTable(cryptotable, "Cryptography/Steganography")
     bftable = SingleTable(bruteforcetable, "Bruteforcing")
