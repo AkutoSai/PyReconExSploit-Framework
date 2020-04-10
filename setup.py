@@ -19,7 +19,8 @@ In order to use `search` command you must install the searchsploit binary! from 
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install exploitdb netcat nmap perl php
-git clone https://
+pip3 install babysploit
+git clone https://github.com/AkutoSai/PyReconExSploit
 cd PyReconExSploit/
 python3 setup.py install
 pyreconexsploit
