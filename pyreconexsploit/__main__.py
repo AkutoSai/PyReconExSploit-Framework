@@ -17,7 +17,7 @@ try:
     configuration.checkuser()
     # Display Help Menu #
     banner = """ PyReconExSploit is a Reconnaissance and Exploitation framework
-written in Python 3. The framework is equipped with different types 
+written in Python3. The framework is equipped with different types 
 of tools which are used for Information Gathering, Cryptology, 
 Exploitation and more.    
     """
