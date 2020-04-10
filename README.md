@@ -15,6 +15,7 @@ pip3 install babysploit
 git clone https://github.com/AkutoSai/PyReconExSploit
 cd PyReconExSploit/
 python3 setup.py install
+cp -r /home/user/Desktop/PyReconExSploit/pyreconexsploit /usr/local/lib/python3.7/dist-packages 
 pyreconexsploit
 ```
 # Getting Started:
