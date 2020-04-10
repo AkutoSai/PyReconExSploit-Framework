@@ -3,7 +3,7 @@ import subprocess
 import json
 
 from pyfiglet import Figlet
-from babysploit.utils import get_terminal_width
+from pyreconexsploit.utils import get_terminal_width
 
 
 def platform_check():
