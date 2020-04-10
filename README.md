@@ -92,6 +92,8 @@ to display a menu with all the currently available tools.
 
 # Credits
 
-[@linux_choice](https://github.com/thelinuxchoice) for BlackEye sites and base.
-[@M4ll0k](https://github.com/m4ll0k) for WPSeku.
-[@exploitdb](https://github.com/exploitdb) for Searchsploit.
+[@linux_choice](https://github.com/thelinuxchoice) for BlackEye sites and base
+
+[@M4ll0k](https://github.com/m4ll0k) for WPSeku
+
+[@exploitdb](https://github.com/exploitdb) for Searchsploit
