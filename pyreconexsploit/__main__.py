@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from configparser import ConfigParser
-from . import display, configuration, dnslookup, helper, iplookup, ftpv, nmtool, reverseshell, searchsploit, blackeye, ftpbruteforce, wpseku, cloudflarebypass
+from babysploit import display, configuration, dnslookup, helper, iplookup, ftpv, nmtool, reverseshell, searchsploit, blackeye, ftpbruteforce, wpseku, cloudflarebypass
 from pyfiglet import Figlet
 import os, subprocess
 
