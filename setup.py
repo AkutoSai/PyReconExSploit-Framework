@@ -13,7 +13,6 @@ setup(
     packages=['pyreconexsploit'],
     install_requires=[
         'netifaces',
-        'babysploit',
         'urllib3',
         'humanfriendly',
         'terminaltables',
